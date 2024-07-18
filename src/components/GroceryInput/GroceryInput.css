@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    /* width: 80%; */
+    border: solid 2px black;
+    border-radius: 1rem;
+}
+.outputcontainer{
+    color: red;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.outputcontainer>button{
+    width: 5rem;
+    
+}
