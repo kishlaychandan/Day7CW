@@ -40,6 +40,7 @@ function GroceryInput() {
                 <h1>Grocery bud</h1>
                 <div className='input_box'>
                     <input 
+                    placeholder='Enter grocery name'
                         type="text" 
                         className='input_box' 
                         value={item} 
